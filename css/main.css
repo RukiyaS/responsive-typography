@@ -62,7 +62,7 @@ blockquote {
   color: #999;
 }
 
-ol {
+article ol {
   padding-left: 15px;
 }
 
@@ -75,7 +75,7 @@ article p {
 
   html {
     line-height: 1.4;
-    font-size: 1.10em;
+    font-size: 110%;
   }
 
   blockquote {
@@ -97,28 +97,37 @@ article p {
 
   html {
     line-height: 1.5;
+    font-size: 120%;
   }
 
   article p {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1.65rem;
+    margin-bottom: 1.65rem;
   }
 
   article > p:last-child {
-    padding-bottom: 2em;
+    padding-bottom: 1.75em;
+  }
+
+  article ol {
+    padding-left: 0;
   }
 
 }
 
 @media only screen and (min-width: 90em) {
 
+  html {
+    font-size: 130%;
+  }
+
   article p {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
   }
 
   article > p:last-child {
-    padding-bottom: 3em;
+    padding-bottom: 1.75em;
   }
 
 }
